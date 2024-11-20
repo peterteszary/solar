@@ -1,0 +1,10 @@
+.teszt {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--kiscica);
+    margin-bottom: 10px;
+    height: 200px;
+    width: 200px;
+    border-radius: var(--border-radius);
+
+}
