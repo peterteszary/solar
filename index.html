@@ -1,80 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <!-- Stíluslapok meghívása -->
-  <link rel="stylesheet" href="/css/bootstrap.min.css">
-  <link rel="stylesheet" href="/css/style.css">
-  <link rel="stylesheet" href="/css/tokens.css">
-  <!-- Az oldal címe -->
-  <title>Naprendszer</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/tokens.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+      </style>
+    <script src="/js/load-html.js"></script>
+   
+    
+    <title>Naprendszer</title>
 </head>
-
 <body>
+    <!--Itt kezdődik a Navigáció-->
+<div id="navbar"></div>
+    <!--Itt végződik a Navigáció-->
 
-  <!-- Navigáció-->
+     <section class="hero-section-solar justify-content-center">
+     <video autoplay muted loop id="bg-video">
+     <source src="/video/bg-video-small.mp4" type="video/mp4">
+     </video>
+      <h1 class="hero-subheading-solar">A Naprendszer</h1>
+      <h3>Egy apró weboldal a hatalmas naprendszerben</h3>
+      <a class="btn-solar">Tovább a bolygókhoz</a>
+     </section>
 
-  <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="#"><img src="/img/cropped-solar-system.png" width="30" height="30"
-          alt="Naprendszer" /></a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="https://google.com">Kezdőlap</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="https://google.com">Naprendszer</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="https://google.com">Bolyók</a>
-          </li>
+     <section class="container-fluid feature-section-solar">
+      <div class="row row-cols-1 row-cols-lg-2 p-5">
+        <div class="col align-content-center">
+          <h2>Minden amit tudni szeretnél</h2>
+          <p>Sok izgalmas érdekességet rejt a világűr. Ha szeretnéd megismerni a titkokat, olvass bele a Naprendszer születésének történetébe</p>
+          <button class="btn-solar"><a href="">Elolvasom</a></button>
+        </div>
 
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              Égitestek a naprendszerben
-            </a>
-            <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="#">Föld</a></li>
-              <li><a class="dropdown-item" href="#">Mars</a></li>
-              <li>
-                <hr class="dropdown-divider">
-              </li>
-              <li><a class="dropdown-item" href="#">Pluto</a></li>
-            </ul>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link disabled" aria-disabled="true">Disabled</a>
-          </li>
-        </ul>
-        <form class="d-flex" role="search">
-          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-          <button class="btn btn-outline-success" type="submit">Search</button>
-        </form>
+        <div class="col">
+          <img class="feature-section-img-solar" src="/img/feature-section.jpg" alt="A naprendszer">
+        </div>
+
       </div>
-    </div>
-  </nav>
-  <!-- Navigáció vége -->
+     </section>
 
-  <!-- Hero Section -->
-  <section class="hero-section-solar justify-content-center">
-    <h1 class="hero-subheading-solar">A Naprendszer</h1>
-    <h3>Egy apró weboldal a hatalmas naprendszerben</h3>
-    <a class="btn-solar">Tovább a bolygókhoz</a>
-  </section>
+    <!--Itt kezdődik a footer-->
+     <div id="footer"></div>
+    <!--Itt végződik a footer-->
 
-  <!-- Hero Section vége -->
-
-  <!-- BootStrap Javascript file meghívása  -->
-
-  <script type="text/javascript" src="/js/bootstrap.min.js"></script>
-
+      <script type="text/javascript" src="/js/bootstrap.min.js"></script>
 </body>
-
 </html>

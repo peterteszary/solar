@@ -1,9 +1,20 @@
 :root {
     --primary: #141822;
     --secondary: #1E2933;
-    --kiscica: #00db99;
+    --base: #0F141A;
+    --action: #5AAf8E;
+    --action-hover: #77f3c4;
+    --light: #e0e0e0;
+    --shadow: #666666;
+
 }
 
 :root {
-    --border-radius: 6em
+    --border-radius: 2em
+}
+
+:root {
+    --padding-base: 4rem;
+    --padding-max: 12rem;
+    --breakpoint:1024px
 }

@@ -1,10 +1,83 @@
-.teszt {
+.bg-base {
+    background-color: aqua;
+
+}
+
+.bg-secondary {
+    background-color: blue;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: var(--primary);
+    color: var(--light);
+}
+
+.footer-solar {
+    padding: 1em;
+}
+
+/* Hero Section CSS */
+
+.hero-section-solar {
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 90vh;
     display: flex;
     flex-direction: column;
-    background-color: var(--kiscica);
-    margin-bottom: 10px;
-    height: 200px;
-    width: 200px;
-    border-radius: var(--border-radius);
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+    row-gap: 1em;
 
+
+}
+
+#bg-video {
+ position: absolute;  
+ top: 0;
+ left: 0;
+ width: 100%;
+ height: 100%;
+ object-fit: cover;
+ z-index: -1;
+
+}
+
+/* Feature Section CSS */
+
+.btn-solar {
+    
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 24px;
+    padding-right: 24px;
+    background-color: var(--action);
+    text-decoration: none;
+    font-weight: 500;
+    border-radius: var(--border-radius);
+    transition: all 0.7s ease-in-out;
+}
+
+.btn-solar:hover {
+    background-color: var(--action-hover);
+}
+
+
+.btn-solar a {
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+}
+
+.feature-section-solar {
+    background-color: var(--primary);
+}
+
+.feature-section-img-solar {
+    width: 100%;
+    border-radius: var(--border-radius);
 }
