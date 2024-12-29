@@ -3,6 +3,8 @@
 
 }
 
+
+
 .bg-secondary {
     background-color: blue;
 }
@@ -177,3 +179,66 @@ body {
     font-weight: 700;
 }
 
+/* Naprendszer oldal CSS */
+
+.content-section {
+    padding-top: var(--padding-base);
+    padding-bottom: var(--padding-base);
+}
+
+@media (min-width: var(--breakpont)) {
+    .content-section {
+        padding-top: var(--padding-max);
+        padding-bottom: var(--padding-max);
+    }
+}
+
+.image-section-div {
+    width: 100%;
+}
+
+.image-section-img {
+    border-radius: var(--border-radius);
+    border-color: var(--action);
+    border-width: 2px;
+    border-style: solid;
+}
+
+img {
+    width: 100%;
+}
+
+.post-container{
+    padding-top: 5em;
+    padding-bottom: 5em;
+}
+
+a {
+    color: var(--action);
+    text-decoration: none;
+}
+
+a:hover{
+    color: var(--action-hover);
+}
+
+#first {
+    background-color: rebeccapurple;
+}
+
+#second {
+    background-color: red;
+}
+
+
+#third {
+    background-color: green;
+}
+
+#fourth {
+    background-color: yellow;
+}
+
+li{
+    display: inline;
+}

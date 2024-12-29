@@ -8,8 +8,8 @@ function loadHTML(id, url) {
   // Automatikusan betölti a navigációt és a láblécet, ha megtalálja azokat az oldalon
   document.addEventListener("DOMContentLoaded", function() {
     const elementsToLoad = [
-      { id: "navbar", url: "navbar.html" },
-      { id: "footer", url: "footer.html" }
+      { id: "navbar", url: "/navbar.html" },
+      { id: "footer", url: "/footer.html" }
     ];
   
     elementsToLoad.forEach(element => {
